@@ -6,6 +6,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
+\usepackage{hyperref}
+\usepackage{pdfpages}
 \pagestyle{empty}
 \topmargin -2cm
 \textheight 22cm
@@ -41,7 +43,8 @@
 
 \begin{center}
     \begin{tabular}{|m{12cm}|m{4cm}|} \hline
-    \vspace{1.5cm} {\hskip 5 true cm} \textsc{Nicolas} Nora \vspace{1.5cm} & \hspace{.7cm} \includegraphics[width = 2 cm]{../20190506_105901}
+    \vspace{1.5cm} {\hskip 5 true cm} \textsc{Nicolas} Nora \vspace{1.5cm}
+    & \hspace{.7cm} \includegraphics[width = 2 cm]{../20190506_105901}
         \\ \hline
     \end{tabular}
 \end{center}
@@ -56,7 +59,7 @@
 
 \vglue 0.5 true cm
 
-\noindent {\bf Adresse électronique :} nora.nicolas@ens-lyon.fr
+\noindent {\bf Adresse électronique :} \href{mailto:nora.nicolas@ens-lyon.fr}{nora.nicolas@ens-lyon.fr}
 
 \vglue 0.5 true cm
 
@@ -65,19 +68,19 @@
 \vglue 0.5 true cm
 
 \noindent {\bf Nom et adresse électronique du responsable  pouvant attester du classement :}
-\textsc{Bartolo} Denis, denis.bartolo@ens-lyon.fr
+\textsc{Bartolo} Denis, \href{mailto:denis.bartolo@ens-lyon.fr}{denis.bartolo@ens-lyon.fr}
 
 \vglue 0.5 true cm
 
-\noindent {\bf Cursus académique :} \\ (joindre l'attestation en ce qui concerne le classement et la
-moyenne) \\ Pour l'année universitaire en cours, seuls les résultats partiels sont demandés.
+\noindent {\bf Cursus académique :} \\ Pour l'année universitaire en cours, seuls les résultats partiels sont demandés.
 
 \begin{center}
     \begin{tabular}{|c|c|c|c|c|c|} \cline{1-6}
- Année  & Formation & Établissement & Moyenne & Rang & Effectifs \\ \hline 
-        2018-2019   & M2 Recherche  & ENS de Lyon  & 10.6  &  &  \\ \hline
-        2017-2018   & M2 FEADéP -- Agrégation  & ENS de Lyon  & ?  &  &  \\ \hline
-        2016-2017   & M1 Recherche & ENS de Lyon &  &  &  \\ \hline
+        Année     & Formation               & Établissement & Moyenne & Rang & Effectifs \\ \hline
+        2018-2019 & M2 Recherche            & ENS de Lyon   & 10.6    &      & \\ \hline
+        2017-2018 & M2 FEADéP -- Agrégation & ENS de Lyon   & 14.6    & 9    & 23 \\ \hline
+        2016-2017 & M1 Recherche            & ENS de Lyon   & 12.5    & 56   & 61\\ \hline
+        2015-2016 & L3 Physique             & ENS de Lyon   & 15.6    & 19   & 50\\ \hline
     \end{tabular}
 \end{center}
 
@@ -100,6 +103,10 @@ recherche en physique.\smallbreak La perspective de faire une thèse dans ce dom
 concrétisation de mon parcours riche en expériences et de ma préférence initiale.
 
 \vglue 7 true cm
+
+\includepdf[pages=-]{attestation.pdf}
+\includepdf[pages=-]{notes_M1.pdf}
+\includepdf[pages=-]{notes_agreg.pdf}
 
 \noindent Vous pouvez ensuite incorporer ici toute information complémentaire utile à l'évaluation
 du dossier : relevés de notes de M1 et M2, diplôme du master et annexes, CV détaillant les éventuels
